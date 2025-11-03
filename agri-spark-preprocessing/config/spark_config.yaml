@@ -1,0 +1,8 @@
+master: "local[*]"
+app_name: "AgriSparkPreprocessing"
+config:
+  spark.executor.memory: "2g"
+  spark.driver.memory: "1g"
+  spark.sql.shuffle.partitions: 4
+  spark.default.parallelism: 4
+  spark.sql.execution.arrow.enabled: true

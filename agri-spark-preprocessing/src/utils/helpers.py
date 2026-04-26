@@ -1,6 +1,6 @@
 def log_message(message: str):
     print(message)
-
+//helper
 def validate_data(df):
     if df is None or df.isEmpty():
         log_message("DataFrame is empty or None.")
